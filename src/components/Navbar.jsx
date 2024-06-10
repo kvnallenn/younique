@@ -4,7 +4,6 @@ import '@fontsource/poppins';
 import '@fontsource/secular-one';
 
 
-
 const Navbar = () =>{
   return(
     <>
@@ -35,7 +34,7 @@ const Navbar = () =>{
       <Text color={'black'} fontSize={15} fontFamily={'poppins'}>Wishlist</Text>
       </HStack>
       <HStack display={{ base: 'flex', lg: 'none' }} spacing={10}>
-      <IconButton aria-label='Search database' icon={<HamburgerIcon />} />
+      <IconButton aria-label='Search database' icon={<HamburgerIcon />} variant='unstyled' color='black'/>
       </HStack>
       </Flex>
     </Box>
