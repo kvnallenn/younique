@@ -37,7 +37,7 @@ const Sidebar = () => {
             <Text color={"black"} fontSize={15} fontFamily={"poppins"} mt={2}>
                 Jastip
             </Text>
-            <Input variant='flushed' fontSize={15} fontFamily={"poppins"} mt={1} placeholder='Cari barang disini...'/>
+            <Input variant='flushed' fontSize={16} fontFamily={"poppins"} mt={1} placeholder='Cari barang disini...'/>
           </VStack>
           </DrawerBody>
           <Center>
