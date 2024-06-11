@@ -53,7 +53,7 @@ const Sidebar = () => {
             <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
                 Tentang Kami
             </Text>
-            <Input variant='flushed' fontSize={16} fontFamily={"poppins"} mt={2} placeholder='Cari barang disini...'/>
+            <Input variant='flushed' fontSize={16} fontFamily={"poppins"} mt={1} placeholder='Cari barang disini...'/>
           </VStack>
           </DrawerBody>
           <Center>
