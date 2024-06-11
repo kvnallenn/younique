@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <>
       <ChakraProvider>
-        <HStack display={{ base: "none", lg: "flex" }} spacing={10}>
+        <HStack display={{ base: "none", xl: "flex" }} spacing={10}>
           <Box bg="#E4E4E4" w="100%" color="white" h="42px" p={3}>
             <Flex alignItems="center" gap={7} mr={10}>
               <Spacer />
@@ -40,7 +40,7 @@ const Navbar = () => {
             >
               YOUNIQUE.LY
             </Text>
-            <HStack display={{ base: "none", lg: "flex" }} spacing={10}>
+            <HStack display={{ base: "none", xl: "flex" }} spacing={10}>
               <Text
                 color={"black"}
                 fontSize={14}
@@ -76,7 +76,7 @@ const Navbar = () => {
               </Text>
             </HStack>
             <Spacer />
-            <HStack display={{ base: "none", lg: "flex" }} spacing={10}>
+            <HStack display={{ base: "none", xl: "flex" }} spacing={10}>
               <Text color={"black"} fontSize={15} fontFamily={"poppins"}>
                 Search
               </Text>
@@ -90,7 +90,7 @@ const Navbar = () => {
                 Wishlist
               </Text>
             </HStack>
-            <HStack display={{ base: "flex", lg: "none" }} spacing={10}>
+            <HStack display={{ base: "flex", xl: "none" }} spacing={10}>
              <Sidebar/>
             </HStack>
           </Flex>
