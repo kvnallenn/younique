@@ -26,20 +26,36 @@ const Sidebar = () => {
         <DrawerContent>
           <DrawerCloseButton />
           <DrawerHeader>YOUNIQUE.LY</DrawerHeader>
+          <Center>
+          <Divider orientation="horizontal" w="85%" borderColor="black" />
+          </Center>
           <DrawerBody>
           <VStack align='stretch'>
-            <Text color={"black"} fontSize={15} fontFamily={"poppins"}>
+          <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
+                Shop
+            </Text>
+            <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
                 Promo
             </Text>
-            <Text color={"black"} fontSize={15} fontFamily={"poppins"} mt={2}>
+            <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
                 Kategori
             </Text>
-            <Text color={"black"} fontSize={15} fontFamily={"poppins"} mt={2}>
+            <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
                 Jastip
             </Text>
-            <Input variant='flushed' fontSize={16} fontFamily={"poppins"} mt={1} placeholder='Cari barang disini...'/>
+            <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
+                Keranjang
+            </Text>
+            <Divider orientation="horizontal" w="100%" borderColor="black" mt={3} />
+            <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
+                Customer Service
+            </Text>
+            <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
+                Tentang Kami
+            </Text>
           </VStack>
           </DrawerBody>
+          
           <Center>
           <Divider orientation="horizontal" w="85%" borderColor="black"/>
           </Center>
@@ -49,7 +65,7 @@ const Sidebar = () => {
                 Masuk
           </Text>
           <Text color={"black"} fontSize={15} fontFamily={"poppins"}>
-                Keranjang
+                Daftar
           </Text>
           </HStack>
           </DrawerFooter>
