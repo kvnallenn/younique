@@ -4,8 +4,7 @@ function App() {
 
   return (
     <>
-    <Navbar/>
-
+    <Navbar link="Shop"/>
     </>
   )
 }
