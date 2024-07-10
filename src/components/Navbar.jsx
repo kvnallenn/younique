@@ -24,6 +24,11 @@ const Navbar = (props) => {
     setisActive(true);
   };
 
+  const onStatus = (e) => {
+    e.preventDefault;
+    setisActive(false);
+  };
+  
   return (
     <>
       <ChakraProvider>
@@ -45,9 +50,10 @@ const Navbar = (props) => {
         {
           isActive ? 
             <ScaleFade initialScale={0.9} in={isActive}>
-              <SearchBar/>
+              <SearchBar onClickHandler={onStatus}/>
             </ScaleFade>
           : 
+          
             <Flex alignItems="center" gap={7} mr={7}>
               <Text
                 fontFamily={"Secular One"}
@@ -114,7 +120,7 @@ const Navbar = (props) => {
                   Wishlist
                 </Text>
               </HStack>
-              <HStack display={{ base: "flex", lg: "none" }} spacing={10}>
+              <HStack display={{ base: "flex", xl: "none" }} spacing={10}>
               <Sidebar />
             </HStack>
             </Flex>

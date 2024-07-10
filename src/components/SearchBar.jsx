@@ -11,27 +11,29 @@ import {
   Text,
 } from "@chakra-ui/react";
 
-const SearchBar = () => {
+const SearchBar = ({onClickHandler}) => {
   return (
     <>
-      <Box color='black'>
+      <Box color="black">
         <Flex justifyContent="center">
-          <InputGroup maxWidth={800} size='md'>
-            <Input placeholder="Cari barang kamu disini..." borderColor='gray' focusBorderColor='black'/>
-            <InputRightElement width='5rem'>
+          <InputGroup maxWidth={800} size="md">
+            <Input
+              placeholder="Cari barang kamu disini..."
+              borderColor="gray"
+              focusBorderColor="black"
+            />
+            <InputRightElement width="5rem">
               <Box display="flex" alignItems="center" h="100%">
-                <Button h="1.75rem" size="sm" colorScheme="white" color="black">
-                  <CloseIcon color="black.500" boxSize={2}/> 
+                <Button h="1.75rem" size="sm" colorScheme="white" color="black" onClick={onClickHandler}>
+                  <CloseIcon color="black.500" boxSize={2} />
                 </Button>
                 <Button h="1.75rem" size="sm" colorScheme="white" color="black">
-                  <SearchIcon color="black.500" /> 
+                  <SearchIcon color="black.500" />
                 </Button>
               </Box>
             </InputRightElement>
           </InputGroup>
-          
         </Flex>
-        
       </Box>
     </>
   );
