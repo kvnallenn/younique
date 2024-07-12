@@ -1,12 +1,30 @@
-.hero-size{
-    width: 1200px;
-    height: 490px;
+@media only screen and (max-width: 508px) {
+  #button-shop {
+    width: 75px;
+    height: 25px;
+    font-size: 10px;
+  }
 }
 
-@media only screen and (max-width: 500px) {
-    #button-shop {
-      width: 75px;
-      height: 25px;
-      font-size: 10px;
-    }
+#button-shop-2 {
+  margin-left: 14px;
+  margin-right: 14px;
+  padding: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  #button-shop-2 {
+    width: 30px;
+    height: 15px;
+    font-size: 6.5px;
+    margin: 5px;
   }
+}
+
+@media only screen and (max-width: 927px) {
+  #box-hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
