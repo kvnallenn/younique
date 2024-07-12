@@ -14,10 +14,10 @@
 
 @media only screen and (max-width: 600px) {
   #button-shop-2 {
-    width: 30px;
-    height: 15px;
-    font-size: 6.5px;
-    margin: 5px;
+    width: 75px;
+    height: 25px;
+    font-size: 10px;
+    margin: 10px;
   }
 }
 
@@ -26,5 +26,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 20px;
+    margin-top: 10px;
   }
 }
