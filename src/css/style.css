@@ -1,0 +1,12 @@
+.hero-size{
+    width: 1200px;
+    height: 490px;
+}
+
+@media only screen and (max-width: 500px) {
+    #button-shop {
+      width: 75px;
+      height: 25px;
+      font-size: 10px;
+    }
+  }
