@@ -10,7 +10,7 @@ function App() {
       <ChakraProvider>
         <Navbar link="Shop" />
         <Hero />
-        <Product/>
+        <Product />
       </ChakraProvider>
     </>
   );

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* RESPONSIVE */
 
@@ -28,11 +28,16 @@
 }
 
 @media only screen and (max-width: 471px) {
-  .chakra-text.text-hero.css-0{
+  .chakra-text.text-hero.css-0 {
     font-size: 40px;
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .chakra-card.css-mob3g8 {
+    margin-bottom: 20px;
+  }
+}
 
 /* RESPONSIVE */
 
@@ -53,6 +58,15 @@
 #button-shop {
   font-weight: 500;
   border-radius: 0%;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #303144;
+  color: white;
+  width: 141.49px;
+  height: 38.9px;
+  font-family: "Poppins";
 }
 
 #button-shop-2 {
@@ -65,11 +79,10 @@
   width: 88px;
   height: 31px;
   color: black;
-
 }
 
 /* TEXT HERO */
-.text-hero{
+.text-hero {
   font-family: "Raleway";
   text-align: center;
   font-size: 60px;
@@ -79,24 +92,35 @@
 
 /* CARD */
 
-.chakra-card__footer.css-1a7q9t8{
+.chakra-card__footer.css-1a7q9t8 {
   padding-top: 4px;
 }
 
-.product-list{
+.product-list {
   width: 520px;
   height: 400px;
 }
 
-.chakra-heading.product-title{
+.chakra-heading.product-title {
   font-family: "Poppins";
   color: black;
   font-size: 30px;
 }
 
-.text-product{
+.text-product {
   color: black;
   font-family: "Poppins";
   font-size: 20px;
+}
+
+.chakra-button.buy-product {
+  background-color: #303144;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.chakra-button.buy-product:hover {
+  background-color: #303144;
 }
 /* CARD */

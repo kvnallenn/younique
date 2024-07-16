@@ -13,7 +13,6 @@ import {
   HStack,
   Button,
   ScaleFade,
-  useMediaQuery,
 } from "@chakra-ui/react";
 
 const Navbar = (props) => {
@@ -28,7 +27,7 @@ const Navbar = (props) => {
     e.preventDefault;
     setisActive(false);
   };
-  
+
   return (
     <>
       <ChakraProvider>
@@ -47,13 +46,11 @@ const Navbar = (props) => {
         </HStack>
 
         <Box w="100%" color="white" h="99px" p={6}>
-        {
-          isActive ? 
+          {isActive ? (
             <ScaleFade initialScale={0.9} in={isActive}>
-              <SearchBar onClickHandler={onStatus}/>
+              <SearchBar onClickHandler={onStatus} />
             </ScaleFade>
-          : 
-          
+          ) : (
             <Flex alignItems="center" gap={7} mr={7}>
               <Text
                 fontFamily={"Secular One"}
@@ -121,12 +118,11 @@ const Navbar = (props) => {
                 </Text>
               </HStack>
               <HStack display={{ base: "flex", xl: "none" }} spacing={10}>
-              <Sidebar />
-            </HStack>
+                <Sidebar />
+              </HStack>
             </Flex>
-        }
-         
-      </Box>
+          )}
+        </Box>
       </ChakraProvider>
     </>
   );

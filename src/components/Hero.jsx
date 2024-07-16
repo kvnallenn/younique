@@ -3,11 +3,8 @@ import {
   Button,
   Center,
   Container,
-  Flex,
-  Grid,
   HStack,
   Image,
-  Text,
   VStack,
 } from "@chakra-ui/react";
 
@@ -19,20 +16,7 @@ const Hero = () => {
           <VStack>
             <Box position="relative" display="inline-block">
               <Image src="../img/53567251.png" />
-              <Button
-                position="absolute"
-                top="85%"
-                left="50%"
-                transform="translate(-50%, -50%)"
-                backgroundColor="#303144"
-                color="#FFFFFF"
-                width="141.49px"
-                height="38.9px"
-                fontFamily={"poppins"}
-                id="button-shop"
-              >
-                Shop Now
-              </Button>
+              <Button id="button-shop">Shop Now</Button>
             </Box>
             <Box position="relative" display="inline-block">
               <Image src="../img/53567252.png" />
