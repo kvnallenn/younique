@@ -7,13 +7,14 @@ import {
   Grid,
   HStack,
   Image,
+  Text,
   VStack,
 } from "@chakra-ui/react";
 
 const Hero = () => {
   return (
     <>
-      <Container>
+      <Container maxW="auto">
         <Center>
           <VStack>
             <Box position="relative" display="inline-block">
@@ -35,49 +36,18 @@ const Hero = () => {
             </Box>
             <Box position="relative" display="inline-block">
               <Image src="../img/53567252.png" />
-              <HStack spacing={10}>
-                <Box position="absolute" transform="translate(-50%, -50%)" top="63%"
-                left="50%" id="box-hero">
-                <Button
-                  backgroundColor="#303144"
-                  color="#FFFFFF"
-                  width="88px"
-                  height="31px"
-                  fontFamily={"poppins"}
-                  id="button-shop-2"
+              <HStack spacing="24px">
+                <Box
+                  position="absolute"
+                  transform="translate(-50%, -50%)"
+                  top="63%"
+                  left="50%"
+                  id="box-hero"
                 >
-                  T-Shirt
-                </Button>
-                <Button
-                  backgroundColor="#303144"
-                  color="#FFFFFF"
-                  width="88px"
-                  height="31px"
-                  fontFamily={"poppins"}
-                  id="button-shop-2"
-                >
-                  One Set
-                </Button>
-                <Button
-                  backgroundColor="#303144"
-                  color="#FFFFFF"
-                  width="88px"
-                  height="31px"
-                  fontFamily={"poppins"}
-                  id="button-shop-2"
-                >
-                  Celana
-                </Button>
-                <Button
-                  backgroundColor="#303144"
-                  color="#FFFFFF"
-                  width="88px"
-                  height="31px"
-                  fontFamily={"poppins"}
-                  id="button-shop-2"
-                >
-                  Dress
-                </Button>
+                  <Button id="button-shop-2">T-Shirt</Button>
+                  <Button id="button-shop-2">One Set</Button>
+                  <Button id="button-shop-2">Celana</Button>
+                  <Button id="button-shop-2">Dress</Button>
                 </Box>
               </HStack>
             </Box>

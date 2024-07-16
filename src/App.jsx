@@ -1,15 +1,17 @@
-import Hero from "./components/Hero"
-import Navbar from "./components/Navbar"
-import "./css/style.css"
+import { ChakraProvider } from "@chakra-ui/react";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import "./css/style.css";
 
 function App() {
-
   return (
     <>
-    <Navbar link="Shop"/>
-    <Hero/>
+      <ChakraProvider>
+        <Navbar link="Shop" />
+        <Hero />
+      </ChakraProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

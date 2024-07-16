@@ -1,3 +1,5 @@
+/* RESPONSIVE */
+
 @media only screen and (max-width: 508px) {
   #button-shop {
     width: 75px;
@@ -6,27 +8,54 @@
   }
 }
 
-#button-shop-2 {
-  margin-left: 14px;
-  margin-right: 14px;
-  padding: 3px;
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 508px) {
   #button-shop-2 {
-    width: 75px;
-    height: 25px;
-    font-size: 10px;
-    margin: 10px;
+    width: 50px;
+    height: 12px;
+    font-size: 12px;
   }
 }
 
-@media only screen and (max-width: 927px) {
+@media only screen and (max-width: 959px) {
   #box-hero {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 20px;
-    margin-top: 10px;
+    margin-top: 12px;
   }
+}
+
+/* RESPONSIVE */
+
+/* BUTTON HOVER */
+
+#button-shop:hover {
+  background-color: #fdc21c;
+  color: #303144;
+  font-weight: bold;
+}
+
+#button-shop-2:hover {
+  background-color: #3c1609;
+  color: white;
+}
+
+/* BUTTON HOVER */
+
+#button-shop {
+  font-weight: normal;
+  border-radius: 0%;
+}
+
+#button-shop-2 {
+  margin-left: 14px;
+  margin-right: 14px;
+  font-weight: 500;
+  border-radius: 0%;
+  background-color: #c69b78;
+  font-family: "poppins";
+  width: 88px;
+  height: 31px;
+  color: black;
+
 }
