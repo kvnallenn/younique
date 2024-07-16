@@ -2,11 +2,9 @@
 
 /* RESPONSIVE */
 
-@media only screen and (max-width: 508px) {
+@media only screen and (min-width: 508px) {
   #button-shop {
-    width: 75px;
-    height: 25px;
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 
