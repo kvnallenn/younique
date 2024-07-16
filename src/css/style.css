@@ -32,7 +32,6 @@
 #button-shop:hover {
   background-color: #fdc21c;
   color: #303144;
-  font-weight: bold;
 }
 
 #button-shop-2:hover {
@@ -43,7 +42,7 @@
 /* BUTTON HOVER */
 
 #button-shop {
-  font-weight: normal;
+  font-weight: 500;
   border-radius: 0%;
 }
 
