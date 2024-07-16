@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* RESPONSIVE */
 
 @media only screen and (max-width: 508px) {
@@ -24,6 +26,13 @@
     margin-top: 12px;
   }
 }
+
+@media only screen and (max-width: 471px) {
+  .chakra-text.text-hero.css-0{
+    font-size: 40px;
+  }
+}
+
 
 /* RESPONSIVE */
 
@@ -58,3 +67,36 @@
   color: black;
 
 }
+
+/* TEXT HERO */
+.text-hero{
+  font-family: "Raleway";
+  text-align: center;
+  font-size: 60px;
+  margin-top: 30px;
+}
+/* TEXT HERO */
+
+/* CARD */
+
+.chakra-card__footer.css-1a7q9t8{
+  padding-top: 4px;
+}
+
+.product-list{
+  width: 520px;
+  height: 400px;
+}
+
+.chakra-heading.product-title{
+  font-family: "Poppins";
+  color: black;
+  font-size: 30px;
+}
+
+.text-product{
+  color: black;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+/* CARD */
