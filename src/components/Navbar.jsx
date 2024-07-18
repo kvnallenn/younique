@@ -15,7 +15,7 @@ import {
   ScaleFade,
 } from "@chakra-ui/react";
 
-const Navbar = (props) => {
+const Navbar = () => {
   const [isActive, setisActive] = useState(false);
 
   const onHandler = (e) => {

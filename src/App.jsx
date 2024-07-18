@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <ChakraProvider>
-        <Navbar link="Shop" />
+        <Navbar/>
         <Hero />
         <Product />
       </ChakraProvider>
