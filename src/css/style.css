@@ -37,6 +37,16 @@
   }
 }
 
+@media only screen and (max-width: 1279px) {
+  .css-qcift0 {
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+  }
+  .chakra-stack.css-tl3ftk{
+    margin-top: 100px;
+  }
+}
 /* RESPONSIVE */
 
 /* BUTTON HOVER */
