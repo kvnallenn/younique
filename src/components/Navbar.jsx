@@ -35,10 +35,10 @@ const Navbar = () => {
           <Box bg="#E4E4E4" w="100%" color="white" h="42px" p={3}>
             <Flex alignItems="center" gap={7} mr={10}>
               <Spacer />
-              <Text color={"black"} fontSize={12} fontFamily={"poppins"}>
+              <Text className="help-navbar">
                 Tentang Kami
               </Text>
-              <Text color={"black"} fontSize={12} fontFamily={"poppins"}>
+              <Text className="help-navbar">
                 Hubungi Kami
               </Text>
             </Flex>
@@ -64,35 +64,35 @@ const Navbar = () => {
                 <Text
                   color={"black"}
                   fontSize={14}
-                  fontFamily={"poppins"}
+                  fontFamily={"HM Sans Regular"}
                   fontWeight={"bold"}
                   ml={5}
                 >
-                  Shop
+                  SHOP
                 </Text>
                 <Text
                   color={"black"}
                   fontSize={14}
-                  fontFamily={"poppins"}
+                  fontFamily={"HM Sans Regular"}
                   fontWeight={"bold"}
                 >
-                  Promo
+                  PROMO
                 </Text>
                 <Text
                   color={"black"}
                   fontSize={14}
-                  fontFamily={"poppins"}
+                  fontFamily={"HM Sans Regular"}
                   fontWeight={"bold"}
                 >
-                  Kategori
+                  KATEGORI
                 </Text>
                 <Text
                   color={"black"}
                   fontSize={14}
-                  fontFamily={"poppins"}
+                  fontFamily={"HM Sans Regular"}
                   fontWeight={"bold"}
                 >
-                  Jastip
+                  JASTIP
                 </Text>
               </HStack>
               <Spacer />
@@ -103,17 +103,17 @@ const Navbar = () => {
                   padding={0}
                   fontWeight={200}
                   onClick={onHandler}
-                  fontFamily={"poppins"}
+                  fontFamily={"HM Sans Regular"}
                 >
                   Search
                 </Button>
-                <Text color={"black"} fontSize={15} fontFamily={"poppins"}>
+                <Text color={"black"} fontSize={15} fontFamily={"HM Sans Regular"}>
                   Masuk
                 </Text>
-                <Text color={"black"} fontSize={15} fontFamily={"poppins"}>
+                <Text color={"black"} fontSize={15} fontFamily={"HM Sans Regular"}>
                   Keranjang
                 </Text>
-                <Text color={"black"} fontSize={15} fontFamily={"poppins"}>
+                <Text color={"black"} fontSize={15} fontFamily={"HM Sans Regular"}>
                   Wishlist
                 </Text>
               </HStack>

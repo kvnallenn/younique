@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import "./css/style.css";
 import Product from "./components/Product";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar/>
         <Hero />
         <Product />
+        <Footer/>
       </ChakraProvider>
     </>
   );

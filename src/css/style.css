@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://db.onlinewebfonts.com/c/70f3e46b3bb904260d1b1a6e0f2edf08?family=HM+Sans+Regular");
 
 /* RESPONSIVE */
 
@@ -43,11 +44,21 @@
     background-color: white;
     z-index: 1000;
   }
-  .chakra-stack.css-tl3ftk{
+  .chakra-stack.css-tl3ftk {
     margin-top: 100px;
   }
 }
 /* RESPONSIVE */
+
+/* NAVBAR */
+
+.chakra-text.css-0.help-navbar {
+  font-family: "HM Sans Regular";
+  font-size: 12px;
+  color: black;
+}
+
+/* NAVBAR */
 
 /* BUTTON HOVER */
 
@@ -74,7 +85,7 @@
   color: white;
   width: 120px;
   height: 38.9px;
-  font-family: "Poppins";
+  font-family: "HM Sans Regular";
 }
 
 #button-shop-2 {
@@ -83,7 +94,7 @@
   font-weight: 500;
   border-radius: 0%;
   background-color: #c69b78;
-  font-family: "poppins";
+  font-family: "HM Sans Regular";
   width: 88px;
   height: 31px;
   color: black;
@@ -110,21 +121,21 @@
 }
 
 .chakra-heading.product-title {
-  font-family: "Poppins";
+  font-family: "HM Sans Regular";
   color: black;
   font-size: 30px;
 }
 
 .text-product {
   color: black;
-  font-family: "Poppins";
+  font-family: "HM Sans Regular";
   font-size: 20px;
 }
 
 .chakra-button.buy-product {
   background-color: #303144;
   color: white;
-  font-family: "Poppins";
+  font-family: "HM Sans Regular";
   font-weight: 500;
 }
 
@@ -132,3 +143,65 @@
   background-color: #303144;
 }
 /* CARD */
+
+/* FOOTER */
+.css-1igwmid {
+  justify-content: space-around;
+}
+
+.chakra-container.css-1lqmovi {
+  margin-top: 100px;
+  background-color: #e4e4e4;
+  padding: 40px;
+  font-family: "HM Sans Regular";
+}
+
+.footer-title {
+  color: #222222;
+  font-weight: 600;
+}
+
+li.css-0 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+div.css-0 {
+  margin-bottom: auto;
+}
+
+.footer-copyright {
+  margin-top: 50px;
+}
+
+.footer-des {
+  text-align: center;
+  font-size: 14px;
+}
+
+.copyright-des {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 592px) {
+  .chakra-stack.footer-content.css-1igwmid {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 592px) {
+  .chakra-accordion.css-0{
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 592px) {
+  .chakra-accordion.css-0{
+    display: none;
+  }
+}
+
+.footer-accordion{
+  font-weight: 600;
+}
+/* FOOTER */
