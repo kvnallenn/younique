@@ -13,7 +13,7 @@ import {
 const FooterAccordion = () => {
   return (
     <>
-      <Accordion defaultIndex={[0]} allowMultiple>
+      <Accordion allowMultiple>
         <AccordionItem>
           <h2>
             <AccordionButton>
