@@ -31,29 +31,29 @@ const Sidebar = () => {
           </Center>
           <DrawerBody>
           <VStack align='stretch'>
-          <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
+          <Text className="navbar-res">
                 Shop
             </Text>
-            <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
+            <Text className="navbar-res">
                 Promo
             </Text>
-            <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
+            <Text className="navbar-res">
                 Kategori
             </Text>
-            <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
+            <Text className="navbar-res">
                 Jastip
             </Text>
-            <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
+            <Text className="navbar-res">
                 Keranjang
             </Text>
             <Divider orientation="horizontal" w="100%" borderColor="black" mt={3} />
-            <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
+            <Text className="navbar-res">
                 Customer Service
             </Text>
-            <Text color={"black"} fontSize={16} fontFamily={"poppins"} mt={3}>
+            <Text className="navbar-res">
                 Tentang Kami
             </Text>
-            <Input variant='flushed' fontSize={16} fontFamily={"poppins"} mt={1} placeholder='Cari barang disini...'/>
+            <Input variant='flushed' fontSize={15} fontFamily={"HM Sans Regular"} mt={0} placeholder='Cari barang disini...'/>
           </VStack>
           </DrawerBody>
           <Center>
@@ -61,10 +61,10 @@ const Sidebar = () => {
           </Center>
           <DrawerFooter justifyContent="flex-start">
           <HStack spacing={10} p={1}>
-          <Text color={"black"} fontSize={15} fontFamily={"poppins"}>
+          <Text className="navbar-res">
                 Masuk
           </Text>
-          <Text color={"black"} fontSize={15} fontFamily={"poppins"}>
+          <Text className="navbar-res">
                 Daftar
           </Text>
           </HStack>
