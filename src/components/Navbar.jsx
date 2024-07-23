@@ -97,6 +97,9 @@ const Navbar = () => {
               </HStack>
               <Spacer />
               <HStack display={{ base: "none", xl: "flex" }} spacing={10}>
+              <Text color={"black"} fontSize={15} fontFamily={"HM Sans Regular"}>
+                  Masuk
+              </Text>
                 <Button
                   colorScheme="white"
                   color="black"
@@ -107,9 +110,6 @@ const Navbar = () => {
                 >
                   Search
                 </Button>
-                <Text color={"black"} fontSize={15} fontFamily={"HM Sans Regular"}>
-                  Masuk
-                </Text>
                 <Text color={"black"} fontSize={15} fontFamily={"HM Sans Regular"}>
                   Keranjang
                 </Text>
