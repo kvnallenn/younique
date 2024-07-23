@@ -53,7 +53,7 @@ const Sidebar = () => {
             <Text className="navbar-res">
                 Tentang Kami
             </Text>
-            <Input variant='flushed' fontSize={15} fontFamily={"HM Sans Regular"} mt={0} placeholder='Cari barang disini...'/>
+            <Input variant='flushed' fontSize={15} fontFamily={"HM Sans Regular"} className="search-nav" placeholder='Cari barang disini...'/>
           </VStack>
           </DrawerBody>
           <Center>

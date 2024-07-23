@@ -65,11 +65,8 @@
   margin-top: 3px;
 }
 
-.navbar-res-search{
-  font-size: 13px;
-  font-family: "HM Sans Regular";
-  color: black;
-  margin-top: 1px;
+.search-nav{
+ margin-top: -4px;
 }
 
 /* NAVBAR */
